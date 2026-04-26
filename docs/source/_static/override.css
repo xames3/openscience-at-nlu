@@ -1,0 +1,72 @@
+.headshot-image {
+    height: 385px !important;
+    object-fit: cover !important;
+    overflow: hidden !important;
+    object-position: top center;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.site-article__meta-group {
+    display: none;
+}
+
+.scbs-carousel {
+    margin-bottom: 2rem !important;
+}
+
+.site-sidebar__brand-title::after,
+.site-header__title::after {
+    content: "\f890";
+    color: #159ad2;
+    margin-left: 0.5rem;
+    display: none;
+}
+
+.purple {
+    color: #a852ff;
+}
+
+.orcid-tag {
+    color: #a5cd39 !important;
+}
+
+.sd-card-text {
+    display: inline-flex;
+    align-items: center;
+}
+
+.sd-card-text a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.recent-post {
+    margin-right: 0.25rem;
+}
+
+.site-header__logo-image {
+    width: auto;
+    height: 2rem;
+    object-fit: contain;
+}
+
+html[data-theme="light"] .site-header__logo-image--single {
+    filter: none;
+}
+
+html[data-theme="dark"] .site-header__logo-image--single {
+    filter: grayscale(1) contrast(2);
+}
+
+@media (max-width: 768px) {
+    .headshot-image {
+        height: 125px !important;
+    }
+
+    .site-header__logo-image {
+        margin-top: -1rem;
+    }
+
+}
+
