@@ -4,7 +4,7 @@ NASA Open Science at NLU Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: 22 April, 2026
-Last updated on: 25 April, 2026
+Last updated on: 29 April, 2026
 
 This file contains the configuration settings for building NLU's NASA
 Open Science 2026 website using Sphinx, a popular Python documentation
@@ -18,7 +18,7 @@ from datetime import datetime as dt
 
 from markupsafe import Markup
 
-from theme import version as theme_version
+from kaamiki import version as theme_version
 
 if t.TYPE_CHECKING:
     from collections.abc import Sequence

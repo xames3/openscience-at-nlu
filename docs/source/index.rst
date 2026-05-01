@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: 22 April, 2026
-.. Last updated on: 25 April, 2026
+.. Last updated on: 30 April, 2026
 
 :orphan:
 :og:title: Open Science 2026 at NLU
@@ -24,10 +24,9 @@ Open Science at NLU
     Transform your research journey and earn your NASA Open Science
     Certification at National Louis University.
 
-.. author::
-    :name: NLU Open Science Team
+.. author:: NLU Open Science Team
     :avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_Aeb1igvVEIBITcZ5xmvTy2DDau7SPQdFg&s
-    :github: https://nl.edu/undergraduate-college/programs/bs-in-computer-science-and-information-systems/nasa-tops/
+    :target: https://nl.edu/undergraduate-college/programs/bs-in-computer-science-and-information-systems/nasa-tops/
 
 .. figure:: https://nl.edu/media/nledu/content-assets/images/undergraduate-college/Logistic-Email-Header--(1).jpg
     :alt: NLU x NASA Open Science 2026 Workshop
@@ -67,15 +66,16 @@ Management Plan (OSDMP).
 
 .. container:: button-container
 
-    .. button-link:: https://science.nasa.gov/open-science/
-        :color: primary
+    .. button:: https://science.nasa.gov/open-science/
+        :faicon: far fa-book-open
 
-        :fas:`book-open far` Learn more
+        Learn more
 
-    .. button-link:: https://science.nasa.gov/open-science/training/
-        :color: secondary
+    .. button:: https://science.nasa.gov/open-science/training/
+        :scheme: secondary
+        :faicon: far fa-badge-check
 
-        :fas:`badge-check far` Training
+        Training
 
 .. rubric:: :fab:`flask far` Workshops + Field trip
     :class: pre-title-text
@@ -129,9 +129,15 @@ The 5-day experience
         :img-alt:
         :class-img-top: headshot-image
 
-        :fab:`code far blue` Open Code
+        :fas:`code far blue` Open Code
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         Assistant Professor
+
+        .. raw:: html
+
+            <a href="https://orcid.org/0009-0009-6597-343X" target="_blank"
+                class="orcid-tag"><i class="fa-brands fa-orcid"></i>
+            </a>
 
     .. card:: Dr. Abdullah Alshboul
         :img-top: https://media.licdn.com/dms/image/v2/C4E03AQGBmNjL1VtxYg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1518071583550?e=1778716800&v=beta&t=62SHQ1qxSNJsNb84jpQAgSt5ziSTGMEQxugWKTy1Xvo
@@ -175,6 +181,17 @@ The 5-day experience
     :show_fade:
     :show_indicators:
 
+    .. figure:: assets/image-12.jpg
+        :alt: Open Science Field Trip to Chicago Botanical Garden, 2025
+
+        Wheeling cohort at the Chicago Botanic Garden, 2025
+
+    .. figure:: assets/image-08.jpg
+        :alt: Open Science Field Trip to Adler Planetarium, 2025
+
+        Our Chicago cohort exploring open data practices at the Adler
+        Planetarium, 2025
+
     .. figure:: assets/image-06.jpg
         :alt: Open Science Field Trip to Chicago Botanical Garden, 2024
 
@@ -187,7 +204,12 @@ The 5-day experience
         Our Wheeling cohort during their field trip to the Chicago Botanic
         Garden, 2024
 
-.. rubric:: :fab:`badge-check far` Certification. Scholarship. Credit.
+    .. figure:: assets/image-07.jpg
+        :alt: Open Science Field Trip to Chicago Botanical Garden, 2023
+
+        Our cohort during their field trip to the Chicago Botanic Garden, 2023
+
+.. rubric:: :fab:`badge-check far` Certification. Scholarship. Internship.
     :class: pre-title-text
 
 -------------------------------------------------------------------------------
@@ -198,10 +220,10 @@ Why should you participate?
     dedicated to scientific advancement.
     :class: subtitle-text
 
-.. button-link:: https://docs.google.com/forms/d/1A3FS6XrG-bPNHzeSnwzbkeusCNL5ROazWXtoP3MBwdA/viewform?edit_requested=true
-    :color: primary
+.. button:: https://docs.google.com/forms/d/1A3FS6XrG-bPNHzeSnwzbkeusCNL5ROazWXtoP3MBwdA/viewform?edit_requested=true
+    :faicon: far fa-user-plus
 
-    |recent| Register now
+    Register now
 
 This program is open to students from all academic disciplines and anyone
 interested in exploring the advantages of collaborative, open research.
@@ -217,32 +239,56 @@ interested in exploring the advantages of collaborative, open research.
 
 Expand your expertise and unlock unique professional opportunities:
 
+- **Internship.** US students are eligible for internships with NASA in the
+  fall.
 - **NASA Open Science Certification.** Gain your official NASA Open Science
   Certification upon completion.
 - **Scholarship.** Participation could earn you a scholarship applied directly
   to your tuition (restrictions apply).
+
+.. note::
+
+    Students may enroll in CSS 101 for an additional two credit hours. Students
+    will be charged for tuition for two credit hours. For more information,
+    feel free to reach out to :email:`Dr. Toni Holden-McGee <tholden1@nl.edu>`
+    or :email:`Dr. Robyn Moncrief <rmoncrief@nl.edu>`.
 
 .. carousel::
     :show_fade:
     :show_indicators:
 
     .. figure:: assets/image-01.jpg
-        :alt: Open Science Field Trip to Chicago Botanical Garden, 2024
+        :alt: Open Science NLU cohort, 2024
 
         Open Science Wheeling cohort, 2024
 
     .. figure:: assets/image-03.jpg
-        :alt: Open Science Field Trip to Chicago Botanical Garden, 2024
+        :alt: Open Science NLU cohort, 2024
 
         Open Science Chicago cohort, 2024
 
     .. figure:: assets/image-04.jpg
-        :alt: Open Science Field Trip to Chicago Botanical Garden, 2024
+        :alt: Open Science NLU cohort, 2025
 
         Open Science Chicago cohort, 2025
 
+    .. figure:: assets/image-11.jpg
+        :alt: NLU Team presenting at Kennedy Space Center, 2023
+
+        Dr. Robyn Moncrief, NLU, presenting at Kennedy Space Center, 2023
+
+    .. figure:: assets/image-09.jpg
+        :alt: Open Science NLU cohort, 2023
+
+        Students visiting NASA's Kennedy Space Center, Florida, 2023
+
+    .. figure:: assets/image-10.jpg
+        :alt: Open Science NLU team at NASA's Kennedy Space Center
+
+        NLU's Open Science team at NASA's Kennedy Space Center, 2023
+
     .. figure:: assets/image-05.jpg
-        :alt: Open Science Field Trip to Chicago Botanical Garden, 2024
+        :alt: Open Science NLU cohort, 2025
 
         Open Science Chicago campus full cohort, 2025
 
