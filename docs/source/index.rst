@@ -1,17 +1,17 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: 22 April, 2026
-.. Last updated on: 30 April, 2026
+.. Last updated on: 11 May, 2026
 
 :orphan:
 :og:title: Open Science 2026 at NLU
 :og:description: National Louis University is proud to work with NASA on Open
     Science.
 :og:type: website
-:prompt: Questions?
-:promptdesc: If you've any questions or need more information, please reach out
-    to Dr. Toni Holden-McGee.
-:submitbtn: Send us an email
-:faicon: comment-question
+:fb:title: Questions?
+:fb:description: If you've any questions or need more information, please reach
+    out to Dr. Toni Holden-McGee.
+:fb:button: Send us an email
+:fb:fa-icon: comment-question
 
 .. _home-page:
 
@@ -24,9 +24,12 @@ Open Science at NLU
     Transform your research journey and earn your NASA Open Science
     Certification at National Louis University.
 
-.. author:: NLU Open Science Team
-    :avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_Aeb1igvVEIBITcZ5xmvTy2DDau7SPQdFg&s
-    :target: https://nl.edu/undergraduate-college/programs/bs-in-computer-science-and-information-systems/nasa-tops/
+.. container:: centered mb-24 glow-bg
+
+    .. button:: https://docs.google.com/forms/d/1A3FS6XrG-bPNHzeSnwzbkeusCNL5ROazWXtoP3MBwdA/viewform?edit_requested=true
+        :fa-icon: far fa-user-plus
+
+        Register now
 
 .. figure:: https://nl.edu/media/nledu/content-assets/images/undergraduate-college/Logistic-Email-Header--(1).jpg
     :alt: NLU x NASA Open Science 2026 Workshop
@@ -67,13 +70,13 @@ Management Plan (OSDMP).
 .. container:: button-container
 
     .. button:: https://science.nasa.gov/open-science/
-        :faicon: far fa-book-open
+        :fa-icon: far fa-book-open
 
         Learn more
 
     .. button:: https://science.nasa.gov/open-science/training/
         :scheme: secondary
-        :faicon: far fa-badge-check
+        :fa-icon: far fa-badge-check
 
         Training
 
@@ -221,7 +224,7 @@ Why should you participate?
     :class: subtitle-text
 
 .. button:: https://docs.google.com/forms/d/1A3FS6XrG-bPNHzeSnwzbkeusCNL5ROazWXtoP3MBwdA/viewform?edit_requested=true
-    :faicon: far fa-user-plus
+    :fa-icon: far fa-user-plus
 
     Register now
 
